@@ -40,8 +40,8 @@ btns.forEach(function (btn) {
     var rand = Math.floor(Math.random() * 3);
     var cMove = moves[rand];
 
-    pimg.style.animation = "shakeplayer 2s";
-    cimg.style.animation = "shakecomputer 2s";
+    pimg.style.animation = "shakeplayer 1.9s";
+    cimg.style.animation = "shakecomputer 1.9s";
 
     var setImage = this.textContent;
     //update images
